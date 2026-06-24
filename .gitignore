@@ -1,3 +1,4 @@
 .claude/skills/
 **/.relearn-queue.jsonl
 .claude/role
+.claude/harness/__pycache__
