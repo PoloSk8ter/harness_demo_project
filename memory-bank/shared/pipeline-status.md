@@ -4,6 +4,6 @@ Bus state — where each role's handoff currently stands. The `publish`/`review`
 updates one line per role. Statuses: `draft` → `ready` → `accepted` | `bounced` (→ back to `draft`).
 
 - po: accepted
-- sa: ready
-- senior: draft
+- sa: accepted
+- senior: ready
 - junior: draft

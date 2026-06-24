@@ -1,1 +1,3 @@
 {"from": "sa", "to": "po", "artifact": "memory-bank/shared/product-brief.md", "verdict": "accept", "reasons": "", "iteration": 1, "ts": "2026-06-24T18:31:11.075812+00:00"}
+{"from": "senior", "to": "sa", "artifact": "memory-bank/shared/architecture.md", "verdict": "accept", "reasons": "", "iteration": 1, "ts": "2026-06-24T19:02:56.350253+00:00"}
+{"from": "senior", "to": "sa", "artifact": "memory-bank/shared/roadmap.md", "verdict": "accept", "reasons": "", "iteration": 1, "ts": "2026-06-24T19:13:19.150863+00:00"}

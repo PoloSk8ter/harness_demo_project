@@ -1,5 +1,5 @@
 ---
-status: ready
+status: accepted
 lock: locked
 version: v1
 date: 2026-06-25

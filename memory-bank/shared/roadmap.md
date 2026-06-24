@@ -1,5 +1,5 @@
 ---
-status: ready
+status: accepted
 date: 2026-06-25
 ---
 <!-- PHASE ROADMAP — the SA's decomposition of the LOCKED architecture (v1) into a dependency-ordered build
