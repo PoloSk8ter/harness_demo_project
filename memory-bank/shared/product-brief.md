@@ -1,5 +1,5 @@
 ---
-status: ready
+status: accepted
 product_verdict: BUILD NOW
 clarity_score: 8.4
 date: 2026-06-25
