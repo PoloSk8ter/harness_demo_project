@@ -6,13 +6,13 @@ Keep this file the single source of project policy. -->
 # HARNESS-CONTEXT — <project name>
 
 ## project
-- name: <short name>
-- one_line: <one-sentence purpose>
+- name: banking-assistant
+- one_line: A guardrail-fronted, multi-specialist conversational banking assistant (reference build on adk_studio / Google ADK, simulated data).
 
 ## stack
-- test_command: <exact command, e.g. `pytest -q` / `npm test` / `cargo test`>     # what the `tdd` and `ship` skills run
-- package_manager: <pip+requirements.txt | uv | npm | pnpm | cargo | …>
-- source_dirs: <where code lives, e.g. `src/` or `backend/`>                       # what the `conform` skill scopes to
+- test_command: pytest -q -m "not llm"     # what the `tdd` and `ship` skills run
+- package_manager: pip+requirements.txt
+- source_dirs: banking_assistant/                       # what the `conform` skill scopes to
 
 ## invariants
 # The project's P0 rules. The Senior `check` and the Junior `conform` read THIS list — they are not
@@ -26,8 +26,8 @@ Keep this file the single source of project policy. -->
 - <Term>: <one-line meaning>
 
 ## framework_library
-- path: <git URL or local path to the standalone company framework library>       # SA allowlist + Junior conventions/exemplars
-- ref: <tag/branch/commit to pin>
+- path: C:/Users/jytee/infopro_harness_engineering_sdlc/infopro_harness/framework-library       # SA allowlist + Junior conventions/exemplars
+- ref: 2026-06-24-snapshot (adk_studio ADMITTED)
 
 ## thresholds
 # Project policy values the components read (never hardcoded in a component). One per line.
