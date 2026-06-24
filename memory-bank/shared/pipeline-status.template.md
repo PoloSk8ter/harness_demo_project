@@ -1,0 +1,9 @@
+# Pipeline Status
+
+Bus state — where each role's handoff currently stands. The `publish`/`review` gate (handoff.py)
+updates one line per role. Statuses: `draft` → `ready` → `accepted` | `bounced` (→ back to `draft`).
+
+- po: draft
+- sa: draft
+- senior: draft
+- junior: draft
